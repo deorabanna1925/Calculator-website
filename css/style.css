@@ -1,16 +1,18 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 body {
     background-color: #888;
+    font-family: 'Orbitron', sans-serif;
 }
 
 table {
     background-color: #222;
     width: 295px;
-    max-width: 295px;
     height: 325px;
     text-align: center;
     border-radius: 4px;
+    padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 15px;
 }
 
 form{
@@ -24,8 +26,7 @@ form{
 input {
     outline: 0;
     position: relative;
-    left: 5px;
-    top: 5px;
+    top: 4px;
     border: 0;
     color: #495069;
     background-color: #fff;
@@ -35,76 +36,52 @@ input {
     float: left;
     margin: 5px;
     font-size: 20px;
-    box-shadow: 0 4px rgba(0,0,0,0.2);
-    margin-bottom: 15px;
-}
-
-input:hover {
-    border: 0 solid #000;
-    color: #495069;
-    background-color: #fff;
-    border-radius: 4px;
-    width: 60px;
-    height: 50px;
-    float: left;
-    margin: 5px;
-    font-size: 20px;
-    box-shadow: 0 4px #b0d2cf;
-}
-
-input:active {
-    top: 4px;
-    border: 0 solid #000;
-    color: #495069;
-    background-color: #fff;
-    border-radius: 4px;
-    width: 60px;
-    height: 50px;
-    float: left;
-    margin: 5px;
-    font-size: 20px;
     box-shadow: none;
 }
 
+input:active {
+    top: 5px;
+    border: 0 solid #000;
+    color: #495069;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px 60px white;
+}
+
 #display {
-    width: 265px;
-    max-width: 270px;
+    top: 4px;
+    width: 275px;
     font-size: 26px;
     text-align: right;
     background-color: #bcbd95;
     float: left;
 }
 
-#display:hover {
-    width: 270px;
-    font-size: 26px;
-    text-align: right;
-    background-color: #bcbd95;
-    box-shadow: 0 4px rgba(0,0,0,0.2);
-}
-
 #display:active {
-    top: 5px;
-    width: 270px;
+    top: 4px;
+    width: 275px;
     font-size: 26px;
     text-align: right;
     background-color: #bcbd95;
-    box-shadow: 0 4px rgba(0,0,0,0.2);
+    box-shadow: none;
 }
 
 .operator {
+    top: 4px;
+    box-shadow: none;
     background-color: #cee9ea;
     position: relative;
 }
 
-.operator:hover {
-    background-color: #cee9ea;
-    box-shadow: 0 4px #b0d2cf;
-}
-
 .operator:active {
-    top: 4px;
-    box-shadow: none;
+    top: 5px;
+    background-color: #cee9ea;
+    box-shadow: 0 4px 60px #cee9ea;
 }
 
 #clear {
@@ -112,23 +89,15 @@ input:active {
     position: relative;
     display: block;
     background-color: #ff9fa8;
-}
-
-#clear:hover {
-    float: left;
-    display: block;
-    background-color: #F297A0;
-    margin-bottom: 15px;
-    box-shadow: 0 4px #CC7F86;
+    box-shadow: none;
 }
 
 #clear:active {
     float: left;
-    top: 4px;
+    position: relative;
     display: block;
-    background-color: #F297A0;
-    margin-bottom: 15px;
-    box-shadow: none;
+    background-color: #ff9fa8;
+    box-shadow: 0 4px 60px #ff9fa8;
 }
         
         
